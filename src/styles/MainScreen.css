@@ -1,0 +1,50 @@
+/* MainScreen.css (o cualquier otro nombre que prefieras) */
+
+.ms-books-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.ms-books-title {
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.book-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: #fff;
+  display: flex; /* Agregado para hacer uso de flexbox */
+  flex-direction: column; /* Cambiado de la dirección de fila a columna */
+  justify-content: space-between; /* Agregado para que los elementos se distribuyan de manera uniforme */
+}
+
+.book-card h2 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.book-card button {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #0ea3de;
+}
+
+.book-card button:hover {
+  background-color: #0c87b8;
+}

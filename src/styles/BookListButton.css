@@ -1,0 +1,44 @@
+  .book-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 2%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .list-name {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+
+  }
+
+  .list-button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .list-button.add {
+    background-color: #5cb85c;
+  }
+
+  .list-button.add:hover {
+    background-color: #449d44;
+  }
+  
+  .list-button.remove {
+    background-color: #d9534f;
+  }
+
+    .list-button.remove:hover {
+        background-color: #c9302c;
+    }
+  

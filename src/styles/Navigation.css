@@ -1,0 +1,46 @@
+/* Navbar container */
+.nav {
+  background-color: #f8f8f8;
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Para espaciar los elementos */
+  align-items: center; /* Para alinear verticalmente */
+}
+
+/* The navigation bar */
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Para alinear horizontalmente */
+}
+
+/* Logout to the right */
+.nav-right {
+  float: right;
+  color: #636262;
+}
+
+/* logout hover */
+.nav-right li a:hover {
+  color: white;
+  background-color: #d9534f;
+}
+
+/* The navigation links */
+.nav li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Color the active/current link */
+.nav li a:hover {
+  color: white;
+  background-color: #4CAF50;
+}
+

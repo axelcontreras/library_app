@@ -1,0 +1,94 @@
+/* ListScreen.css */
+
+.list-screen-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .list-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .loading-paragraph {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .books-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  .books-table-head {
+    background-color: #f5f5f5;
+    color: black;
+  }
+  
+  .books-table th, .books-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .no-books-paragraph {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .clean-list-button, .delete-list-button, .delete-book-button, .back-button {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .clean-list-button {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    color: #fff;
+  }
+
+  .clean-list-button:hover {
+    background-color: #ec971f;
+    border-color: #d58512;
+  }
+
+  .delete-list-button {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    color: #fff;
+  }
+
+  .delete-list-button:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+  }
+
+  .delete-book-button {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    color: #fff;
+  }
+
+  .back-button {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+  }
+
+  .back-button:hover {
+    background-color: #449d44;
+    border-color: #398439;
+  }
+
+  .delete-book-button:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+  }
+
+  .clean-list-button:last-child, .delete-list-button:last-child, .delete-book-button:last-child {
+    margin-right: 0;
+  }
+

@@ -1,0 +1,114 @@
+/* UserProfile.css */
+
+.user-profile-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  .profile-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #5cb85c;
+  }
+
+  .profile-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .loading-paragraph {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .lists-ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .list-item:hover {
+    background-color: #e5e9d5;
+    color: #000;
+  }
+  
+  .create-list-button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    background-color: #5cb85c;
+    color: #fff;
+  }
+
+  .create-list-button:hover {
+    background-color: #449d44;
+  }
+
+  .delete-list-button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    background-color: #d9534f;
+    color: #fff;
+  }
+
+  .delete-list-button:hover {
+    background-color: #c9302c;
+  }
+
+  .view-list-button {
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right: 10px;
+    background-color: #5bc0de;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+  }
+
+  .view-list-button:hover {
+    background-color: #31b0d5;
+  }
+  
+  .create-list-form {
+    margin-bottom: 20px;
+  }
+  
+  .create-list-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .create-list-form input {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .create-list-form button {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .create-list-form button:last-child {
+    margin-right: 0;
+  }
+  
